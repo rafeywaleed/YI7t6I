@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-
 import 'widget_selection_page.dart';
 
 class InitialPage extends StatefulWidget {
@@ -37,7 +36,7 @@ class _InitialPageState extends State<InitialPage> {
         if (!showText && !showImage && !showButton) {
           isEmptyPress = false;
         }
-        if (showImage || showImage) {
+        if (showImage || showText) {
           isEmptyPress = false;
         }
       });
